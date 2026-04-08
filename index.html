@@ -12,7 +12,7 @@
         <div class="logo">Leo Espinoza S.</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#about">Sobre mí</a></li>
                 <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
@@ -28,7 +28,7 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about"        onclick="toggleMenu()">Acerca de</a></li>
+                <li><a href="#about"        onclick="toggleMenu()">Sobre mí</a></li>
                 <li><a href="#experience"   onclick="toggleMenu()">Experiencia</a></li>
                 <li><a href="#projects"     onclick="toggleMenu()">Proyectos</a></li>
                 <li><a href="#contact"      onclick="toggleMenu()">Contacto</a></li>
@@ -37,14 +37,20 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Leo Espinoza S. profile picture"/>  
+            <img 
+                src="./assets/Perfil1.jpg" 
+                alt="Leo Espinoza S. profile picture"
+                class="hero-pic"
+            />  
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hola! Yo soy</p>
+            <p class="section__text__p1">¡Hola! Yo soy</p>
             <h1 class="title">Leo Espinoza S.</h1>
             <p class="section__text__p2">Ingeniero en Computación.</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Leonel-Espinoza-S_Awesome_CV.pdf')">Descargar CV</button>
+                <a href="./assets/Leonel-Espinoza-S_Awesome_CV.pdf" download="Leonel-Espinoza-S_Awesome_CV">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Leonel-Espinoza-S_Awesome_CV.pdf')">Descargar CV</button>
+                </a>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contacto</button>
             </div>
             <div id="socials-container">
@@ -69,7 +75,7 @@
         <div class="section-container">
             <div class="section__pic-container">
                 <img
-                    src="./assets/Placeholder.png" 
+                    src="./assets/Perfil2.jpg" 
                     alt="Profile picture" 
                     class="about-pic"
                 />
@@ -340,7 +346,7 @@
     </section>
     <section id="contact">
         <p class="section__text__p1">¿Te interesa?</p>
-        <h1 class="title">!Contactame!</h1>
+        <h1 class="title">¡Contactame!</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img 
@@ -364,10 +370,10 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>
