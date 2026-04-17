@@ -353,89 +353,94 @@
         />
     </section>
     <section id="projects">
-        <p class="section__text__p1">Un vistazo a mis</p>
-        <h1 class="title">Proyectos</h1>
-        <div class="skills-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                            src="./assets/Placeholder.png"
-                            alt="Project 1"
-                            class="project-img"
-                        />
-                    </div>
-                    <h2 class="skills-sub-title project-title">
-                        Project One
-                    </h2>
-                    <div class="btn-container">
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            GitHub
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
+        <div class="section-header">
+            <p class="section__text__p1">Un vistazo a mis</p>
+            <h1 class="title">Proyectos</h1>
+        </div>
+        <div class="section-body projects-cards-container grid-container">
+            <div class="project-card grid-item">
+                <div class="porject-img-container">
+                    <img
+                        src="./assets/RISC-V 1x1.png"
+                        alt="RISC-V Reverse Debugger Image"
+                        class="project-img"
+                    />
                 </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                            src="./assets/Placeholder.png"
-                            alt="Project 2"
-                            class="project-img"
-                        />
-                    </div>
-                    <h2 class="skills-sub-title project-title">
-                        Project Two
-                    </h2>
-                    <div class="btn-container">
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            GitHub
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                            src="./assets/Placeholder.png"
-                            alt="Project 3"
-                            class="project-img"
-                        />
-                    </div>
-                    <h2 class="skills-sub-title project-title">
-                        Project Three
-                    </h2>
-                    <div class="btn-container">
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            GitHub
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/'"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
+                <h2 class="project-title">
+                    RISC-V Reverse Debugger
+                </h2>
+                <div class="btn-container project-btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/LeonelEspinoza/RiscInterpreter'"
+                    >
+                        GitHub
+                    </button>
                 </div>
             </div>
+            <div class="project-card grid-item">
+                <div class="porject-img-container">
+                    <img
+                        src="./assets/Simulation.png"
+                        alt="Simulador de Fluidos Image"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="project-title">
+                    Simulador de Fluidos
+                </h2>
+                <div class="btn-container project-btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/DiegoG205/ProyectoGPU'"
+                    >
+                        GitHub
+                    </button>
+                </div>
+            </div>
+            <div class="project-card grid-item">
+                <div class="porject-img-container">
+                    <img
+                        src="./assets/MeltingPoint.png"
+                        alt="Melting Point Game Image"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="project-title">
+                    Melting Point Game
+                </h2>
+                <div class="btn-container project-btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://digox.itch.io/melting-point'"
+                    >
+                        Itch.io
+                    </button>
+                </div>
+            </div>
+            <!--
+            <div class="project-card grid-item">
+                <div class="porject-img-container">
+                    <img
+                        src="../assets/Placeholder.png"
+                        alt="project img"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="project-title">
+                    Projecto 4 Lorem, ipsum dolor.
+                </h2>
+                <div class="btn-container project-btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                    >
+                        GitHub
+                    </button>
+                </div>
+            </div>
+            -->
+
         </div>
         <img 
             src="./assets/arrow.png" 
@@ -471,7 +476,8 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#skills">Experiencia</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
                     <li><a href="#projects">Proyectos</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>

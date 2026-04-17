@@ -407,6 +407,43 @@ article .icon {
     color: black;
 }
 
+
+.section-body {
+    height: 85%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    align-content: start;
+    justify-content: center;
+}
+
+.project-card {
+    padding: 1.5rem;
+    text-align: center;
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+    border: rgb(163, 163, 163) 1px solid;
+    
+}
+
+.project-img-container {
+    height: 65%;
+    width: 90%;
+}
+
+.project-img {
+    border-radius: 2rem;
+    height: 90%;
+    width: 90%;
+}
+
+.project-btn-container {
+    align-self: flex-end;
+}
+
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
