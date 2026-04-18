@@ -426,6 +426,7 @@ article .icon {
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     align-content: start;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .project-card {
